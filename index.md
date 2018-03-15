@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-        <title>Applications des smart-contracts de la blockchain Ethereum</title>
         <meta charset="utf-8">
 </head>
 
