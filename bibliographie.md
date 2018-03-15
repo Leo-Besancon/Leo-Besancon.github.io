@@ -13,7 +13,7 @@ ___
 
 ## Liens utiles
 
-* []()
+* [Site officiel du projet Ethereum](https://www.ethereum.org/)
 * []()
 * []()
 
@@ -24,9 +24,10 @@ ___
 
 ## Pour approfondir : ressources pour développeurs
 
-* []()
-* []()
-* []()
+* Suite de développement de smart-contracts : [Truffle](http://truffleframework.com/)
+* IDE en ligne pour prototypage rapide de smart-contracts : [Remix](https://remix.ethereum.org)
+* [Documentation technique d'Ethereum](http://www.ethdocs.org/en/latest/)
+* [Documentation technique de Solidity](https://solidity.readthedocs.io/en/v0.4.21/)
 
 ## Autres références
 
