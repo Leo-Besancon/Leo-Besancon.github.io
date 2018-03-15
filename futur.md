@@ -11,7 +11,7 @@ ___
 
 # Le futur de la technologie
 
-## Limitations actuelles :
+## Limitations actuelles
 
 
 
@@ -36,4 +36,5 @@ ___
 À lire ensuite : [**Bibliographie**](bibliographie.html)
 
 ___
+[Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)
 Suivez mon flux Twitter : [@ecl_lb](https://twitter.com/ecl_lb) !
