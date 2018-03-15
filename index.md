@@ -1,6 +1,3 @@
----
-layout: page
----
 <!DOCTYPE HTML>
 <html>
 <head>
