@@ -19,4 +19,5 @@ Il n'a bien-sûr pas pour but de présenter une vue exhaustive de l'écosystème
 À lire ensuite : [**Présentation d'Ethereum**](ethereum.html)
 
 ___
+[Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)
 Suivez mon flux Twitter : [@ecl_lb](https://twitter.com/ecl_lb) !
