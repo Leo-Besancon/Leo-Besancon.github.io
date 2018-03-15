@@ -11,7 +11,6 @@
 ___
 # Qu'est-ce qu'un smart-contract ?
 
-
 ## Principe générale
 
 

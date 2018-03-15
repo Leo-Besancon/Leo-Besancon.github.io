@@ -19,9 +19,13 @@ ___
 
 ### Vulnérabilités
 
+Comme mentionné précédemment, la technologie est jeune et les vulnérabilités sont un des plus gros problèmes actuels
+pour la démocratisation des smart-contracts. La maintenabilité est difficile, et toute erreur peut avoir de très grosses
+conséquences.
 
 
 ### Manque de régulation
+
 
 
 ### Passage à l'échelle du nombre de transactions traitées par le réseau
@@ -32,8 +36,11 @@ ___
 
 ## Roadmap
 
-### Passage à la _Proof of Stake_ (POS)
+### Transactions hors-chaîne
 
+
+
+### Passage à la _Proof of Stake_ (POS)
 
 
 
@@ -43,11 +50,11 @@ ___
 
 
 
-
-
 ## À quoi peut-ont s'attendre ?
 
 ### Maturation de la technologie
+
+De nouveaux outils de développement apparaissent régulièrement......
 
 
 ### Régulations

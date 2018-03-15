@@ -13,23 +13,35 @@ ___
 
 ## Plateformes de jeux d'argents
 
+### FunFair
 
+### 
+
+### 
 
 
 ## Création de tokens
 
+### Levées de fond par ICO
+
+### 
+
+### 
 
 
 ## Automatisation de processus
 
+### Fizzy
 
-
-
+### 
 
 ## Partage de ressources
 
+### 
 
+### 
 
+### 
 
 ## Création de _Decentralized Autonomous Organizations_ (DAO)
 
