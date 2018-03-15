@@ -12,7 +12,7 @@ ___
 
 # Exemples de code Solidity
 
-Pour avoir une vue plus complète des différents contrats que j'ai écris et testé, rendez vous sur la page de mon projet GitHub : [https://github.com/Leo-Besancon/exercices-b2expand] !
+Pour avoir une vue plus complète des différents contrats que j'ai écris et testé, rendez vous sur la page de mon projet GitHub : https://github.com/Leo-Besancon/exercices-b2expand !
 Ce projet m'a permi de découvrir la syntaxe de Solidity ainsi que de mieux comprendre les enjeux de sécurité derrière les smart-contracts.
 
 
