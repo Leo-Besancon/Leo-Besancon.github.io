@@ -1,14 +1,13 @@
 # Les applications de ces contrats
 
-
 ___
-* [Accueil](index.md)
-* [Présentation d'Ethereum](ethereum.md)
-* [Qu'est-ce qu'un smart-contract ?](smartcontracts.md)
-* [Les applications de ces contrats](applications.md)
-* [Sécurité des smart-contracts](securite.md)
-* [Le futur de la technologie](futur.md)
-* [Bibliographie](bibliographie.md)
+* [Accueil](index.html)
+* [Présentation d'Ethereum](ethereum.html)
+* [Qu'est-ce qu'un smart-contract ?](smartcontracts.html)
+* [Les applications de ces contrats](applications.html)
+* [Sécurité des smart-contracts](securite.html)
+* [Le futur de la technologie](futur.html)
+* [Bibliographie](bibliographie.html)
 
 ___
 Suivez mon flux Twitter : [@ecl_lb](https://twitter.com/ecl_lb) !

@@ -1,4 +1,4 @@
-# Qu'est-ce qu'un smart-contract ?
+# Bibliographie
 
 
 ___
