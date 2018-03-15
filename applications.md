@@ -6,6 +6,7 @@
 * [Sécurité des smart-contracts](securite.html)
 * [Le futur de la technologie](futur.html)
 * [Bibliographie](bibliographie.html)
+
 ___
 
 # Les applications de ces contrats
