@@ -16,6 +16,7 @@ Ce site à pour vocation de présenter ma veille technologique sur les smart-con
 Il n'a bien-sûr pas pour but de présenter une vue exhaustive de l'écosystème, qui est aujourd'hui bien trop important et en constante évolution.
 
 ![Ethereum logo](https://www.ethereum.org/images/logos/ETHEREUM-LOGO_LANDSCAPE_Black_small.png)
+
 _Source : [https://www.ethereum.org](https://www.ethereum.org), licence Creative Commons attribution 3.0_
 
 À lire pour commencer : [**Présentation d'Ethereum**](ethereum.html)
