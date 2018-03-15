@@ -9,11 +9,11 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Exemples de code Solidity
 
-## Respository des exemples
+## Repository des exemples
 Pour avoir une vue plus complète des différents contrats que j'ai écris et testé, rendez vous sur la page de mon projet GitHub : [https://github.com/Leo-Besancon/exercices-b2expand](https://github.com/Leo-Besancon/exercices-b2expand) !
+
 Ce projet m'a permi de découvrir la syntaxe de Solidity ainsi que de mieux comprendre les enjeux de sécurité derrière les smart-contracts.
 
 ## Détails sur les contrats
@@ -28,7 +28,7 @@ Un Token est une crypto-monnaie qui repose sur un smart-contract. Ce contrat sto
 ERC20 est un standard de token : il définit l'ensemble de fonctions qu'un token doit implémenter pour facilité l'intégration dans l'écosystème Ethereum.
 
 
-### Deuxième contrat : Vendre ce token par crowdfunding ( _Initial Coin Offering_, ou ICO)
+### Deuxième contrat : Vendre ce token par crowdfunding (_Initial Coin Offering_, ou ICO)
 
 Le principe de ce contrat est simple : les investisseurs doivent pouvoir envoyer des Ether au contrat, et recevoir en échange des tokens.
 

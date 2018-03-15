@@ -9,7 +9,6 @@
 * [**Bibliographie**](bibliographie.html)
 
 ___
-
 # Bibliographie
 
 ## Liens utiles

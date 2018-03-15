@@ -9,8 +9,20 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Qu'est-ce qu'un smart-contract ?
+
+
+## Principe générale
+
+
+
+
+## Fonctionnement technique de l'_Ethereum Virtual Machine_ (EVM)
+
+
+
+
+## Environnement de développement
 
 
 

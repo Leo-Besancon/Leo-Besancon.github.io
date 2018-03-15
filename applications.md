@@ -9,8 +9,31 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Les applications de ces contrats
+
+## Plateformes de jeux d'argents
+
+
+
+
+## Création de tokens
+
+
+
+## Automatisation de processus
+
+
+
+
+
+## Partage de ressources
+
+
+
+
+## Création de _Decentralized Autonomous Organizations_ (DAO)
+
+
 
 
 À lire ensuite : [**Exemples de code Solidity**](exemples.html)

@@ -9,14 +9,22 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Le futur de la technologie
 
 ## Limitations actuelles
 
+### Consommation énergétique
 
 
 
+### Vulnérabilités
+
+
+
+### Manque de régulation
+
+
+### Passage à l'échelle du nombre de transactions traitées par le réseau
 
 
 
@@ -24,11 +32,25 @@ ___
 
 ## Roadmap
 
+### Passage à la _Proof of Stake_ (POS)
+
+
+
+
+### Sharding
+
+
+
 
 
 
 
 ## À quoi peut-ont s'attendre ?
+
+### Maturation de l'écosystème
+
+
+### Régulations
 
 
 

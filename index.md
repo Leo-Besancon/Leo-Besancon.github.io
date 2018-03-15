@@ -9,7 +9,6 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Accueil
 
 Ce site à pour vocation de présenter ma veille technologique sur les smart-contracts de la blockchain Ethereum et de leurs applications.
@@ -17,7 +16,7 @@ Ce site à pour vocation de présenter ma veille technologique sur les smart-con
 Il n'a bien-sûr pas pour but de présenter une vue exhaustive de l'écosystème, qui est aujourd'hui bien trop important et en constante évolution.
 
 
-À lire ensuite : [**Présentation d'Ethereum**](ethereum.html)
+À lire pour commencer : [**Présentation d'Ethereum**](ethereum.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

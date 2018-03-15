@@ -9,7 +9,6 @@
 * [Bibliographie](bibliographie.html)
 
 ___
-
 # Présentation d'Ethereum
 
 Ethereum est une blockchain publique. Cela signifie que n'importe qui peut intéragir avec, créer un noeud ou encore miner pour sécuriser le réseau.
@@ -26,6 +25,7 @@ Le fonctionnement de base d'une blockchain est le suivant :
 
 
 
+## Pourquoi vouloir utiliser une blockchain ?
 
 
 
