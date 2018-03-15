@@ -13,11 +13,13 @@ ___
 
 Ethereum est une blockchain publique. Cela signifie que n'importe qui peut intéragir avec, créer un noeud ou encore miner pour sécuriser le réseau.
 
-
 ## Qu'est-ce qu'une blockchain ?
 
 Le fonctionnement de base d'une blockchain est le suivant :
 
+
+
+Une bonne explication des concepts de base peut se trouver sur la chaîne Youtube [3Blue1Brown]() : []()
 
 
 ## Spécificités d'Ethereum

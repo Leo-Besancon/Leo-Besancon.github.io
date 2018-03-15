@@ -13,16 +13,26 @@ ___
 
 ## Liens utiles
 
+* []()
+* []()
+* []()
 
+## Projets mentionnés :
+* []()
+* []()
+* []()
 
 ## Pour approfondir : ressources pour développeurs
 
-
-
+* []()
+* []()
+* []()
 
 ## Autres références
 
-
+* []()
+* []()
+* []()
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

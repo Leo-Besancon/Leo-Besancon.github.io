@@ -47,7 +47,7 @@ ___
 
 ## À quoi peut-ont s'attendre ?
 
-### Maturation de l'écosystème
+### Maturation de la technologie
 
 
 ### Régulations
