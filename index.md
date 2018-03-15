@@ -4,7 +4,7 @@ Ce site à pour vocation de présenter ma veille technologique sur les smart-con
 
 ___
 * [Accueil](index.md)
-* [Présentation d'Ethereum](ethereum.md)
+* [Présentation d'Ethereum](ethereum.html)
 * [Qu'est-ce qu'un smart-contract ?](smartcontracts.md)
 * [Les applications de ces contrats](applications.md)
 * [Sécurité des smart-contracts](securite.md)
