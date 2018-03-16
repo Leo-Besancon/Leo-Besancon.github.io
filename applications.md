@@ -47,19 +47,28 @@ L'intérêt est que les smart-contracts d'Ethereum peuvent gérer facilement le 
 
 ## Automatisation de processus
 
-### [Fizzy](https://fizzy.axa/)
+### [Fizzy](https://fizzy.axa/) et leur [vidéo de présentation](https://www.youtube.com/watch?v=C4RxizgkVxQ)
 
-
+Fizzy, développé par Axa, est une assurance automatisée pour indemniser les retards d'avion. Les contrats consultent (par des Oracles) les bases de 
+données d'horaires des vols et détermine automatiquement, quelques minutes après l'atterissage, si le client doit être indemniser ou non.
 
 ## Partage de ressources
 
 ### [Storj](https://storj.io/) et leur [Papier Blanc](https://storj.io/storj.pdf)
 
+Storj est un Cloud décentralisé : vos fichiers sont découpés en _shards_, chiffrés, puis réparties sur différents noeuds du réseau souhaitants louer leur espace
+de stockage disponible, avec redondence.
+
 ### [iExec](https://iex.ec) et leur [Papier Blanc](https://iex.ec/app/uploads/2017/04/iExec-WPv2.0-English.pdf) 
 
+iExec fonctionne sur le même principe, mais en remplaçant l'espace de stockage par de la puissance de calcul. Cela permet aux utilisateurs de louer sur demande
+des ressources CPU et GPU afin de réaliser du calcul distribué.
 
 ## Création de _Decentralized Autonomous Organizations_ (DAO)
 
+Enfin, une des applications les plus ambitieuses des smart-contracts est la création de _Decentralized Autonomous Organizations_. Ces organisations agissent comme
+des entreprises, mais sont dirigées par un programme et non par une structure humaine. Les investisseurs peuvent cependant modifier les différents paramètres
+du programme par le vote, comme c'est le cas pour MakerDAO.
 
 ## ... Et de nombreuses autres !
 

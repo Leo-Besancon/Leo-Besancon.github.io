@@ -23,9 +23,16 @@ ___
 * []()
 
 ## Projets mentionnés :
-* []()
-* []()
-* []()
+* [Decent.bet](https://decent.bet)
+* [FunFair](https://funfair.io/)
+* [MakerDAO et Dai](https://makerdao.com/)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ## Pour approfondir : ressources pour développeurs
 
