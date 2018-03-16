@@ -52,29 +52,24 @@ Ainsi, il semble impossible que le réseau actuel puisse être utilisé par plus
 
 ### Transactions hors-chaîne
 
+Afin d'augmenter le nombre possible de transactions traitables par la blockchain, des solutions, dites "hors-chaîne", sont en développement. [Raiden Network](https://raiden.network/)
+se base sur le même principe que le Lightning Network de Bitcoin, [lancé le 16/03/2018 sur le main-net en version bêta](https://twitter.com/lightning/status/974299189076148224).
 
+Si ce projet réussi et que l'adoption est importante, le nombre de transactions qui peuvent être réalisées par Ethereum pourrait être considérablement augmenté.
 
 ### Passage à la _Proof of Stake_ (POS)
 
-
+Prévue pour 2018 / 2019, la mise à jour Casper du protocole d'Ethereum prévoit de passer à un processus de consensus beaucoup moins consommateur en énergie que la _Proof of Work_, la _Proof of Stake_.
 
 ### Sharding
 
+Une autre solution potentielle pour le passage à l'échelle est le _sharding_, qui consiste en la parallélisation des transactions du réseau en divisant les noeuds en _shards_.
+Ce procédé, qui peut être récursif afin de créer un _arbre de shards_, permettrait lui aussi d'augmenté considérablement le nombre de transactions possible.
 
+## Conclusions
 
-
-
-## À quoi peut-on s'attendre ?
-
-### Maturation de la technologie
-
-De nouveaux outils de développement apparaissent régulièrement......
-
-
-### Régulations
-
-
-
+Finalement, Ethereum est une technologie jeune et le principe des smart-contracts est très innovant. De nombreuses applications de cette technologie sont en cours de développement,
+mais la technologie doit devenir plus mature, autant par la recherche que par les outils proposés aux développeurs, afin d'être utilisable au quotidien dans des applications grand public.
 
 
 À lire ensuite : [**Bibliographie ->**](bibliographie.html)
