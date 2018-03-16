@@ -12,21 +12,21 @@ ___
 # Exemples de code Solidity
 
 ## Repository des exemples
-Pour avoir une vue plus complète des différents contrats que j'ai écris et testé, rendez vous sur la page de mon projet GitHub : [https://github.com/Leo-Besancon/exercices-b2expand](https://github.com/Leo-Besancon/exercices-b2expand) !
+Pour avoir une vue plus complète des différents contrats que j'ai écrits et testé, rendez-vous sur la page de mon projet GitHub : [https://github.com/Leo-Besancon/exercices-b2expand](https://github.com/Leo-Besancon/exercices-b2expand) !
 
-Les dossiers de chaque contrats contiennent un fichier README.md dans lequel je décris les différentes actions réalisées, les contrats (fichiers *.sol) et les interfaces ABI décrivants les signatures des
-fonctions afin d'intéragir avec eux depuis un site comme [MyEtherWallet](https://myetherwallet.com).
+Les dossiers de chaque contrat contiennent un fichier README.md dans lequel je décris les différentes actions réalisées, les contrats (fichiers *.sol) et les interfaces ABI décrivant les signatures des
+fonctions afin d'interagir avec eux depuis un site comme [MyEtherWallet](https://myetherwallet.com).
 
 Ce projet m'a permis de découvrir la syntaxe de Solidity ainsi que de mieux comprendre les enjeux de sécurité derrière les smart-contracts.
 
 ## Détails sur les contrats
 
-J'ai ainsi écrit 5 contrats que j'ai publié sur le Test-net Ropsten. Un Test-net permet de déployer et tester des contrats sans avoir a payer des transactions,
+J'ai ainsi écrit 5 contrats que j'ai publiés sur le Test-net Ropsten. Un Test-net permet de déployer et tester des contrats sans avoir à payer des transactions,
 et pour éviter d'avoir un contrat vulnérable en cours de développement qui puisse être utilisé avec de l'argent réel.
 
 ### Premier contrat : Déploiement d'un Token ERC20
 
-Un Token est une crypto-monnaie qui repose sur un smart-contract. Ce contrat stocke les balances associées aux différentes adresses qui ont intéragient avec le contrat, dans la map : `mapping(address => uint256) balances;`
+Un Token est une cryptomonnaie qui repose sur un smart-contract. Ce contrat stocke les balances associées aux différentes adresses qui ont interagi avec le contrat, dans la map : `mapping(address => uint256) balances;`
 
 ERC20 est un standard de token : il définit l'ensemble de fonctions qu'un token doit implémenter pour facilité l'intégration dans l'écosystème Ethereum.
  
@@ -72,11 +72,11 @@ function withdrawIfFailed() public returns (bool success){
 }
 ```
 
-Dans cette fonction, on récupère le reçu associé à l'investissement d'une personne dans l'ICO, on regarde sa valeur, puis on rembourse en fonction de cette valeur (en vérifiant bien qu'il n'a pas déjà retirer son argent !).
+Dans cette fonction, on récupère le reçu associé à l'investissement d'une personne dans l'ICO, on regarde sa valeur, puis on rembourse en fonction de cette valeur (en vérifiant bien qu'il n'a pas déjà retiré son argent !).
 
 ### Troisième contrat : Investir dans cette ICO via un smart-contract tiers
 
-Ce contrat m'a permis de comprendre comment fonctionne les appels de fonctions entre les différents contrats. À partir de l'interface d'un contrat et de son adresse sur la blockchain,
+Ce contrat m'a permis de comprendre comment fonctionnent les appels de fonctions entre les différents contrats. À partir de l'interface d'un contrat et de son adresse sur la blockchain,
 nous pouvons en effet directement appeler les fonctions de ce contrat depuis un autre.
 
 ```javascript
@@ -88,13 +88,13 @@ function Invest() public payable {
 
 ### Quatrième contrat : Implémenter des payment channels
 
-Je n'ai pas réussi a faire fonctionner ce code, mais le principe était de pouvoir implémenter des payments channels. Ils permettent en effet de pouvoir réaliser des transactions _hors-chaîne_,
+Je n'ai pas réussi à faire fonctionner ce code, mais le principe était de pouvoir implémenter des payments channels. Ils permettent en effet de pouvoir réaliser des transactions _hors-chaîne_,
 c'est-à-dire sans diffuser la transaction aux mineurs. La signature de messages permet en effet en principe de vérifier après coup une transaction.
 
 ### Cinquième contrat : Introduire une vulnérabilité dans le contrat d'ICO
 
-Ici, le but est de recréer la faille (appelée _Re-entrancy attack_) du DAO qui à permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'informations page suivante).
-Depuis ce hack, Solidity a été patché pour éviter que d'autres contrats soient vulnérables, donc la vulnérabilité que j'ai exploité ne pourrait pas être introduite par erreur.
+Ici, le but est de recréer la faille (appelée _Re-entrancy attack_) du DAO qui a permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'informations page suivante).
+Depuis ce hack, Solidity a été patché pour éviter que d'autres contrats soient vulnérables, donc la vulnérabilité que j'ai exploitée ne pourrait pas être introduite par erreur.
 
 Lorsqu'on envoie des Ether à un contrat, une fonction spéciale est appelée, la fonction de _fallback_ du contrat. L'attaque utilise cette fonction pour voler les fonds d'un autre contrat.
 
@@ -130,7 +130,7 @@ function () public payable {
 ```
 
 On voit que l'appel de cette fonction redemande de retirer de l'argent au contrat initial. Comme le booléen `withdrew` n'a pas encore été mis à jour à ce moment,
-l'appel réussi, et l'attaquant peut siphonné la totalité des fonds du contrat.
+l'appel réussi, et l'attaquant peut siphonner la totalité des fonds du contrat.
 
 À lire ensuite : [**Sécurité des smart-contracts ->**](securite.html)
 

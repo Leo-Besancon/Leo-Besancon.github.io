@@ -11,9 +11,9 @@
 ___
 # Accueil
 
-Ce site à pour vocation de présenter ma veille technologique sur les smart-contracts de la blockchain Ethereum et de leurs applications.
+Ce site a pour vocation de présenter ma veille technologique sur les smart-contracts de la blockchain Ethereum et de leurs applications.
 
-Il n'a bien-sûr pas pour but de présenter une vue exhaustive de l'écosystème, qui est aujourd'hui bien trop important et en constante évolution.
+Il n'a bien sûr pas pour but de présenter une vue exhaustive de l'écosystème, qui est aujourd'hui bien trop important et en constante évolution.
 
 ![Ethereum logo](https://www.ethereum.org/images/logos/ETHEREUM-LOGO_LANDSCAPE_Black_small.png)
 

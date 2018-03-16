@@ -19,7 +19,7 @@ Le consensus par _Proof of Work_ consomme de très grosses quantités d'énergie
 Grâce à des améliorations comme une bande passante plus élevée, Ethereum arrive à moins consommer d'électricité que Bitcoin alors qu'il traite plus de transactions.
 
 Cependant, l'énergie consommée reste rédhibitoire : elle est, d'après [https://digiconomist.net/ethereum-energy-consumption](https://digiconomist.net/ethereum-energy-consumption),
-aussi importante que l'énergie consommée par la République Dominicaine !
+aussi importante que l'énergie consommée par la République dominicaine !
 
 ![Évolution de la consommation énergétique d'Ethereum](ethereum_consommation.png)
 Sources : [https://digiconomist.net/ethereum-energy-consumption](https://digiconomist.net/ethereum-energy-consumption)
@@ -40,7 +40,7 @@ acteurs malveillants.
 
 Enfin, il est important de mentionner qu'à l'heure actuelle, Ethereum ne peut pas gérer plus d'une quinzaine de transactions par seconde.
 
-En décembre 2017, un jeu décentralisé, [CryptoKitties](https://www.cryptokitties.co/), est devenu très populaire et à amené une demande importante de transactions de la part de ces utilisateurs.
+En décembre 2017, un jeu décentralisé, [CryptoKitties](https://www.cryptokitties.co/), est devenu très populaire et a amené une demande importante de transactions de la part de ces utilisateurs.
 Le réseau ne pouvait pas en traiter autant, ce qui a eu pour double conséquence d'allonger les temps d'attente et d'augmenter fortement le coût des transactions.
 
 Un article de Bloomberg mentionnant le phénomène est disponible ici : [
@@ -55,7 +55,7 @@ Ainsi, il semble impossible que le réseau actuel puisse être utilisé par plus
 Afin d'augmenter le nombre possible de transactions traitables par la blockchain, des solutions, dites "hors-chaîne", sont en développement. [Raiden Network](https://raiden.network/)
 se base sur le même principe que le Lightning Network de Bitcoin, [lancé le 16/03/2018 sur le main-net en version bêta](https://twitter.com/lightning/status/974299189076148224).
 
-Si ce projet réussi et que l'adoption est importante, le nombre de transactions qui peuvent être réalisées par Ethereum pourrait être considérablement augmenté.
+Si ce projet réussit et que l'adoption est importante, le nombre de transactions qui peuvent être réalisées par Ethereum pourrait être considérablement augmenté.
 
 ### Passage à la _Proof of Stake_ (POS)
 
@@ -64,7 +64,7 @@ Prévue pour 2018 / 2019, la mise à jour Casper du protocole d'Ethereum prévoi
 ### Sharding
 
 Une autre solution potentielle pour le passage à l'échelle est le _sharding_, qui consiste en la parallélisation des transactions du réseau en divisant les noeuds en _shards_.
-Ce procédé, qui peut être récursif afin de créer un _arbre de shards_, permettrait lui aussi d'augmenté considérablement le nombre de transactions possible.
+Ce procédé, qui peut être récursif afin de créer un _arbre de shards_, permettrait lui aussi d'augmenter considérablement le nombre de transactions possible.
 
 ## Conclusions
 

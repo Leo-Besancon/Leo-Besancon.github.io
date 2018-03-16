@@ -11,19 +11,19 @@
 ___
 # Présentation d'Ethereum
 
-Ethereum est une blockchain publique. Cela signifie que n'importe qui peut intéragir avec, créer un noeud ou encore miner pour sécuriser le réseau.
+Ethereum est une blockchain publique. Cela signifie que n'importe qui peut interagir avec, créer un noeud ou encore miner pour sécuriser le réseau.
 
 ## Qu'est-ce qu'une blockchain ?
 
-Une blockchain est, au plus haut niveau, un livre de compte publique et décentralisé dont les seules modifications possibles sont des ajouts.
-Ainsi, tout le monde peut diffuser une transaction à l'ensemble du réseau, et, si cette transaction est inclus dans un block de transaction, l'ensemble
+Une blockchain est, au plus haut niveau, un livre de compte public et décentralisé dont les seules modifications possibles sont des ajouts.
+Ainsi, tout le monde peut diffuser une transaction à l'ensemble du réseau, et, si cette transaction est incluse dans un block de transaction, l'ensemble
 des clients mettront à jour leur copie de la blockchain.
 
-Le problème est alors de pouvoir décider quelles transactions sont intégrés dans le prochain block. En effet, nous pourrions imaginer que quelqu'un créé un conflit
+Le problème est alors de pouvoir décider quelles transactions sont intégrées dans le prochain block. En effet, nous pourrions imaginer que quelqu'un crée un conflit
 en diffusant deux transactions contradictoires. Pour éviter cela, les blockchain ont besoin d'un algorithme de consensus. Le plus utilisé est le _Proof of Work_,
 dans lequel des acteurs, appelés mineurs, doivent calculer des hashs par bruteforce afin d'en trouver un qui satisfait une condition spécifique.
 
-Une autre forme de consensus est la _Proof of Stake_, dans laquel les personnes validant les blocks attestent de leur bonne fois en mettant une certaine somme d'argent
+Une autre forme de consensus est la _Proof of Stake_, dans laquelle les personnes validant les blocks attestent de leur bonne fois en mettant une certaine somme d'argent
 en collatérale : s'ils sont identifiés comme malveillants, ils perdent de l'argent.
 
 De nombreuses ressources externes détaillent le fonctionnement d'une blockchain, mais cela sort du contexte de ma veille. Une bonne explication des concepts de base 
