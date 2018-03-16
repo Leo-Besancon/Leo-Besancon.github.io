@@ -38,7 +38,7 @@ un total de pas moins de [6.8 milliards de dollars](https://www.bloomberg.com/ne
 ![Financements par ICO par trimestre](icos.png)
 Source : [Smith et Crown](https://www.smithandcrown.com/icos/) et [https://www.bloomberg.com/news/articles/2018-01-21/to-ico-or-not-to-ico-that-is-the-question-for-today-s-startups](https://www.bloomberg.com/news/articles/2018-01-21/to-ico-or-not-to-ico-that-is-the-question-for-today-s-startups)
 
-### Création de stablecoins (DAI)
+### Création de stablecoins (Dai, par [MakerDAO](https://makerdao.com/) et le [Papier Blanc](https://makerdao.com/whitepaper/DaiDec17WP.pdf))
 
 Les cryptomonnaies sont très volatiles, ce qui peut poser un problème lorsque l'on souhaite les dépenser. Dai est un token qui, par un mécanisme complexe
 géré par MakerDAO, reste stable par rapport au dollar.
