@@ -20,19 +20,16 @@ ___
 
 * [Site officiel du projet Ethereum](https://www.ethereum.org/)
 * [Repository Github](https://github.com/ethereum/)
-* []()
+* [Mon repository Github](https://github.com/Leo-Besancon/exercices-b2expand)
 
 ## Projets mentionnés :
 * [Decent.bet](https://decent.bet)
 * [FunFair](https://funfair.io/)
 * [MakerDAO et Dai](https://makerdao.com/)
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* [Fizzy](https://fizzy.axa/)
+* [Storj](https://storj.io/)
+* [iExec](https://iex.ec)
+
 
 ## Pour approfondir : ressources pour développeurs
 
@@ -41,8 +38,6 @@ ___
 * [Documentation technique d'Ethereum](http://www.ethdocs.org/en/latest/)
 * [Documentation technique de Solidity](https://solidity.readthedocs.io/en/v0.4.21/)
 * [Papier Jaune d'Ethereum](https://github.com/ethereum/yellowpaper), décrivant le fonctionnement en détail de l'EVM.
-
-
 
 ## Autres références
 

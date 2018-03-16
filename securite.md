@@ -61,7 +61,7 @@ de nombreux contrats (comme les jeux d'argents basés sur la chance), et peuvent
 
 
 
-À lire ensuite : [**Le futur de la technologie**](futur.html)
+À lire ensuite : [**Le futur de la technologie ->**](futur.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

@@ -47,7 +47,7 @@ Quelques métriques intéressantes sur la plateforme :
 * Truffle : 360 000 téléchargements
 * Une estimation de 100 000 développeurs sur la plateforme
 
-À lire ensuite : [**Qu'est-ce qu'un smart-contract ?**](smartcontracts.html)
+À lire ensuite : [**Qu'est-ce qu'un smart-contract ? ->**](smartcontracts.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

@@ -80,7 +80,7 @@ Pour découvrir de nouvelles applications aux smart-contract, vous pouvez :
 * Regarder les avancées de l'[Enterprise Ethereum Alliance](https://entethalliance.org/members/), une association de 450 entreprises cherchants à exploiter
 la technologie.
 
-À lire ensuite : [**Exemples de code Solidity**](exemples.html)
+À lire ensuite : [**Exemples de code Solidity ->**](exemples.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

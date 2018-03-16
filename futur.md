@@ -77,7 +77,7 @@ De nouveaux outils de développement apparaissent régulièrement......
 
 
 
-À lire ensuite : [**Bibliographie**](bibliographie.html)
+À lire ensuite : [**Bibliographie ->**](bibliographie.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

@@ -19,7 +19,7 @@ Il n'a bien-sûr pas pour but de présenter une vue exhaustive de l'écosystème
 
 _Source : [https://www.ethereum.org](https://www.ethereum.org), licence Creative Commons attribution 3.0_
 
-À lire pour commencer : [**Présentation d'Ethereum**](ethereum.html)
+À lire pour commencer : [**Présentation d'Ethereum ->**](ethereum.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)

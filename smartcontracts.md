@@ -66,7 +66,7 @@ sans avoir à investir massivement dans une infrastructure complexe.
 * Gestion des payements intégrée au protocole : Pas besoin de passé par un tiers tel Paypal qui peut bannir arbitrairement des comptes et applique des frais importants.
 
 
-À lire ensuite : [**Les applications de ces contrats**](applications.html)
+À lire ensuite : [**Les applications de ces contrats ->**](applications.html)
 
 ___
 [Me contacter](mailto://leo.besancon@ecl14.ec-lyon.fr)
