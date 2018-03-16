@@ -23,8 +23,7 @@ Cette application permet de parier sur les résultats sportifs. Elle utilise le 
 Les Oracles permettent aux contrats d'intéragir avec le monde extérieur. Des redondances des flux sont programmées afin de minimiser les effets de la corruption
 d'un flux spécifique.
 
-### [FunFair](https://funfair.io/) et leurs Papiers Blancs [Commercial](https://funfair.io/wp-content/uploads/FunFair-Commercial-White-Paper.pdf) et
-[Technique](https://funfair.io/wp-content/uploads/FunFair-Technical-White-Paper.pdf)
+### [FunFair](https://funfair.io/) et leurs Papiers Blancs [Commercial](https://funfair.io/wp-content/uploads/FunFair-Commercial-White-Paper.pdf) et [Technique](https://funfair.io/wp-content/uploads/FunFair-Technical-White-Paper.pdf)
 
 FunFair souhaite devenir une des plus grosses plateforme de casino décentralisé, permettant aux développeurs d'ajouter leurs jeux à la plateforme.
 
