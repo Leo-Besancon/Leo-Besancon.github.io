@@ -15,8 +15,14 @@ ___
 
 ### Consommation énergétique
 
+Le consensus par _Proof of Work_ consomme de très grosses quantités d'énergies pour faire fonctionner le réseau.
+Grâce à des améliorations comme une bande passante plus élevée, Ethereum arrive à moins consommer d'électricité que Bitcoin alors qu'il traite plus de transactions.
+
+Cependant, l'énergie consommée reste rédhibitoire : elle est, d'après [https://digiconomist.net/ethereum-energy-consumption](https://digiconomist.net/ethereum-energy-consumption),
+aussi importante que l'énergie consommée par la République Dominicaine !
+
 ![Évolution de la consommation énergétique d'Ethereum](ethereum_consommation.png)
-Sources : [https://ethereumenergyconsumption.com](https://ethereumenergyconsumption.com)
+Sources : [https://digiconomist.net/ethereum-energy-consumption](https://digiconomist.net/ethereum-energy-consumption)
 
 ### Vulnérabilités
 
@@ -34,9 +40,13 @@ acteurs malveillants.
 
 Enfin, il est important de mentionner qu'à l'heure actuelle, Ethereum ne peut pas gérer plus d'une quinzaine de transactions par seconde.
 
-[TODO : CryptoKitties]()
+En décembre 2017, un jeu décentralisé, [CryptoKitties](), est devenu très populaire et à amené une demande importante de transactions de la part de ces utilisateurs.
+Le réseau ne pouvait pas en traiter autant, ce qui a eu pour double conséquence d'allonger les temps d'attente et d'augmenter fortement le coût des transactions.
 
+Un article de Bloomberg mentionnant le phénomène est disponible ici : [
+CryptoKitties Mania Overwhelms Ethereum Network's Processing](https://www.bloomberg.com/news/articles/2017-12-04/cryptokitties-quickly-becomes-most-widely-used-ethereum-app)
 
+Ainsi, il semble impossible que le réseau actuel puisse être utilisé par plusieurs applications grand publique, à l'heure où les quantités de données traitées explosent.
 
 ## Roadmap
 

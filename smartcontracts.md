@@ -64,7 +64,7 @@ Cependant, les blockchains ont tout de même des avantages très intéressants :
 * Fiabilité : Une application décentralisée ne dépend pas d'un serveur central pour fonctionné, ainsi la probabilité de pannes de l'application est négligeable par design,
 sans avoir à investir massivement dans une infrastructure complexe.
 * Pas besoin de confiance en un tiers : si le code est de confiance, alors intéragir avec le smart-contract est sûr. Le fonctionnement de certaines plateforme de jeux d'argents en ligne,
-par exemple, ont volé leurs clients en manipulant leur algorithme propriétaire. [TODO : SOURCES !!!!!]
+par exemple, ont volé leurs clients en manipulant leur algorithme propriétaire. [TODO : SOURCES !]()
 * Immuabilité : Personne ne peut modifier les événements passés (le coût de modification d'une transaction est en exponentiel du temps passé).
 * Gestion des payements intégrée au protocole : Pas besoin de passé par un tiers tel Paypal qui peut bannir arbitrairement des comptes et applique des frais importants.
 

@@ -53,6 +53,7 @@ ___
 ## ... Et de nombreuses autres !
 
 Pour découvrir de nouvelles applications aux smart-contract, vous pouvez :
+
 * Regarder l'ensemble des Applications Décentralisées existantes : [State of the Dapps]()
 * Consulter mon flux twitter pour d'autres exemples que j'ai jugé intéressants : [@ecl_lb](https://twitter.com/ecl_lb)
 * Vous tenir au courant des dernières sorties grâces aux communautés que j'ai utilisé pour réaliser ma veille (voir section [Bibliographie](bibliographie.html))
