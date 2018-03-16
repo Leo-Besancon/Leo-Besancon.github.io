@@ -31,6 +31,8 @@ et des besoins de la cryptographie pour faire fonctionner un tel système peut s
 [Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4) :
 [![Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://img.youtube.com/vi/bBC-nXj3Ng4/0.jpg)](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
+Vous pouvez également lire les synthèses des autres personnes ayant réalisé leur veille sur la blockchain.
+
 ## Spécificités d'Ethereum
 
 Ethereum est une blockchain créée par Vitalik Buterin, un ancien développeur de Bitcoin, en 2014. Elle utilise la _Proof of Work_, mais devrait passer prochainement à la _Proof of Stake_.

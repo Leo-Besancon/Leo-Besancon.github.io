@@ -13,15 +13,41 @@ ___
 
 ## Principe générale
 
+Un smart-contract est un programme qui réside sur la blockchain. Les utilisateurs d'un contrat peuvent appeler ses fonctions de la 
+même manière qu'ils réalisent des transactions classiques, avec des clients tels que [MetaMask]() ou [Mist]().
 
-
+Une fois la transaction diffusée, les mineurs vont exécuter le code du contrat et mettre à jour l'état des variables stockées sur la blockchain.
+Les traces d'exécutions sont également stockées.
 
 ## Fonctionnement technique de l'_Ethereum Virtual Machine_ (EVM)
 
+### Gas
+Afin d'éviter les problèmes de spams de transactions (un acteur malveillant pourrait inonder le réseau de transactions inutiles
+qui monopoliseraient les ressources de calculs des mineurs), un coût est associé à chaque transaction. Concrêtement, chaque transaction
+se voit attribuer un nombre de _gas_ selon la complexité des calculs associés, et l'utilisateur doit payer des frais proportionnels aunombre de
+_gas_ consommés lors de l'exécution de la transaction. Ce principe permet de rendre une inondation de transaction trop chère pour
+être efficace.
 
+### Langage et compilation
 
+Plusieurs langages sont mis à disposition aux développeurs pour écrire des smart-contracts. Le plus utilisé actuellement est
+[Solidity](), mais il y a aussi [Vyper](https://github.com/ethereum/vyper) ([Serpent]() étant _deprecated_).
+
+Vyper à pour but de réduire le nombre de fonctionnalités par rapport à Solidity afin de simplifier les audits de sécurités du code
+des smart-contracts.
+
+Une fois écris, les smart-contracts sont compilés en Bytecode (l'assembleur de la blockchain), c'est-à-dire traduits en une série
+d'instructions de base (appelés _opcodes_) décrites dans le [Papier Jaune d'Ethereum](https://github.com/ethereum/yellowpaper).
 
 ## Environnement de développement
+
+Pour développer des smart-contracts, la suite d'outils la plus utilisée est [Truffle](http://truffleframework.com/).
+Cependant, un IDE en ligne est également disponible pour prototyper rapidement des smart-contracts : [Remix](https://remix.ethereum.org)
+
+[TODO : tests, ...]()
+
+
+
 
 
 

@@ -28,6 +28,9 @@ ___
 * IDE en ligne pour prototypage rapide de smart-contracts : [Remix](https://remix.ethereum.org)
 * [Documentation technique d'Ethereum](http://www.ethdocs.org/en/latest/)
 * [Documentation technique de Solidity](https://solidity.readthedocs.io/en/v0.4.21/)
+* [Papier Jaune d'Ethereum](https://github.com/ethereum/yellowpaper), décrivant le fonctionnement en détail de l'EVM.
+
+
 
 ## Autres références
 
