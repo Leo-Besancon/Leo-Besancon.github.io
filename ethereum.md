@@ -29,7 +29,7 @@ en collatérale : s'ils sont identifiés comme malveillants, ils perdent de l'ar
 De nombreuses ressources externes détaillent le fonctionnement d'une blockchain, mais cela sort du contexte de ma veille. Une bonne explication des concepts de base 
 et des besoins de la cryptographie pour faire fonctionner un tel système peut se trouver sur la chaîne Youtube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) :
 [Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4) :
-[![](https://img.youtube.com/vi/bBC-nXj3Ng4/0.jpg)]](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+[![Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://img.youtube.com/vi/bBC-nXj3Ng4/0.jpg)](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
 ## Spécificités d'Ethereum
 
