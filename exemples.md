@@ -53,9 +53,8 @@ c'est-à-dire sans diffuser la transaction aux mineurs. La signature de messages
 
 ### Cinquième contrat : Introduire une vulnérabilité dans le contrat d'ICO
 
-Ici, le but est de recréer la faille du DAO qui à permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'information page suivante).
+Ici, le but est de recréer la faille (appelée _Re-entrancy attack_) du DAO qui à permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'information page suivante).
 Depuis ce hack, Solidity a été patché pour éviter que d'autres contrats soient vulnérables, donc la vulnérabilité que j'ai exploité ne pourrait pas être introduite par erreur.
-
 
 À lire ensuite : [**Sécurité des smart-contracts**](securite.html)
 

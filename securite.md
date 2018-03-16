@@ -30,15 +30,33 @@ la sécurité qui pourraient ne pas être remplits
 
 ## Sécurité des smart-contracts
 
-### Hack du DAO
+### Hack du DAO : _Re-entrancy attack_
+
+Pour comprendre ce hack, il faut comprendre la gestion des payements par les contrats. Lorsque que quelqu'un (une personne ou un autre contrat) envoie des Ether
+à l'adresse d'un contrat, une fonction spéciale, appelée fonction de fallback "()", est appelée.
+
+Ainsi, dans le code suivant, le contrat appelera la fonction de fallback du contrat qui a appelé la fonction "" : 
 
 
+Mais dans sa fonction de fallback, le contrat malveillant appelle de nouveau la fonction "". Cela créé donc une boucle de paiement, et
+la balance du contrat ciblé est vidée.
 
-### Hack de EtherDelta
 
+### Hack de EtherDelta : 
+
+Ce hack vise alors un point faible des applications décentralisées actuelles : le front-end. Tout le monde peut interagir purement
+avec le contrat, mais une interface graphique nécessaire pour améliorer l'expérience utilisateur.
+
+Ainsi, les concepts de sécurité web classiques s'appliquent également pour les applications décentralisées, à moins de changer la façon dont le front-end est
+délivré (si par exemple les pages sont sécurisées sur un stockage décentralisé comme IPFS ou Swarm).
 
 
 ### Génération de nombre aléatoires
+
+Des études ont montrés que de nombreux contrats sont vulnérables à cause de la façon dont ils génèrent des nombres aléatoires. Ces RNG sont nécessaires au fonctionnement
+de nombreux contrats (comme les jeux d'argents basés sur la chance), et peuvent être manipulés s'ils ne sont pas créés correctement.
+
+
 
 
 
