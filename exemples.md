@@ -93,10 +93,12 @@ c'est-à-dire sans diffuser la transaction aux mineurs. La signature de messages
 
 ### Cinquième contrat : Introduire une vulnérabilité dans le contrat d'ICO
 
-Ici, le but est de recréer la faille (appelée _Re-entrancy attack_) du DAO qui à permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'information page suivante).
+Ici, le but est de recréer la faille (appelée _Re-entrancy attack_) du DAO qui à permis à un hacker de voler un grand nombre d'Ether en 2016 (plus d'informations page suivante).
 Depuis ce hack, Solidity a été patché pour éviter que d'autres contrats soient vulnérables, donc la vulnérabilité que j'ai exploité ne pourrait pas être introduite par erreur.
 
-La vulnérabilité provient de la fonction `withdrawIfFailed` suivante :
+Lorsqu'on envoie des Ether à un contrat, une fonction spéciale est appelée, la fonction de _fallback_ du contrat. L'attaque utilise cette fonction pour voler les fonds d'un autre contrat.
+
+La vulnérabilité du contrat de crowdfunding attaqué provient de la fonction `withdrawIfFailed` suivante :
 
 ```javascript
 function withdrawIfFailed() public returns (bool success){
@@ -114,9 +116,9 @@ function withdrawIfFailed() public returns (bool success){
 }
 ```
 
-Ici, lorsque quelqu'un retire son argent, le booléen `withdrew`est bien mis à jour, mais après que notre contrat lui envoie l'argent. Ainsi, si un contrat retire son argent,
-on lui envoie des Ether ce qui appelle la fonction de fallback du contrat :
+Ici, lorsque quelqu'un retire son argent, le booléen `withdrew` est bien mis à jour, mais après que notre contrat lui envoie l'argent.
 
+Ainsi, si le contrat de l'attaquant retire son argent, on lui envoie des Ether ce qui appelle la fonction de fallback du contrat :
 
 ```javascript
 function () public payable {
@@ -127,9 +129,8 @@ function () public payable {
 }
 ```
 
-On voit que l'appel de cette fonction redemande de retirer de l'argent au contrat initial. Comme le booléen `withdrew`n'a pas encore été mis à jour à ce moment,
+On voit que l'appel de cette fonction redemande de retirer de l'argent au contrat initial. Comme le booléen `withdrew` n'a pas encore été mis à jour à ce moment,
 l'appel réussi, et l'attaquant peut siphonné la totalité des fonds du contrat.
-
 
 À lire ensuite : [**Sécurité des smart-contracts ->**](securite.html)
 
