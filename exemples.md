@@ -14,7 +14,10 @@ ___
 ## Repository des exemples
 Pour avoir une vue plus complète des différents contrats que j'ai écris et testé, rendez vous sur la page de mon projet GitHub : [https://github.com/Leo-Besancon/exercices-b2expand](https://github.com/Leo-Besancon/exercices-b2expand) !
 
-Ce projet m'a permi de découvrir la syntaxe de Solidity ainsi que de mieux comprendre les enjeux de sécurité derrière les smart-contracts.
+Les dossiers de chaque contrats contiennent un fichier README.md dans lequel je décris les différentes actions réalisées, les contrats (fichiers *.sol) et les interfaces ABI décrivants les signatures des
+fonctions afin d'intéragir avec eux depuis un site comme [MyEtherWallet](https://myetherwallet.com).
+
+Ce projet m'a permis de découvrir la syntaxe de Solidity ainsi que de mieux comprendre les enjeux de sécurité derrière les smart-contracts.
 
 ## Détails sur les contrats
 
@@ -23,18 +26,49 @@ et pour éviter d'avoir un contrat vulnérable en cours de développement qui pu
 
 ### Premier contrat : Déploiement d'un Token ERC20
 
-Un Token est une crypto-monnaie qui repose sur un smart-contract. Ce contrat stocke les balances associées aux différentes adresses qui ont intéragient avec le contrat.
+Un Token est une crypto-monnaie qui repose sur un smart-contract. Ce contrat stocke les balances associées aux différentes adresses qui ont intéragient avec le contrat, dans la map : `mapping(address => uint256) balances;`
 
 ERC20 est un standard de token : il définit l'ensemble de fonctions qu'un token doit implémenter pour facilité l'intégration dans l'écosystème Ethereum.
+
+```javascript
+    function transfer(address _to, uint _value) public returns (bool success) {
+        if (balances[msg.sender] >= _value 
+            && _value > 0
+            && balances[_to] + _value > balances[_to] // Protects from overflow
+			) {
+            balances[msg.sender] -= _value;
+            balances[_to] += _value;
+            Transfer(msg.sender, _to, _value); // Event must be sent
+            return true;
+        } else {
+            return false;
+        }
+}
+```
+
+```solidity
+    function transfer(address _to, uint _value) public returns (bool success) {
+        if (balances[msg.sender] >= _value 
+            && _value > 0
+            && balances[_to] + _value > balances[_to] // Protects from overflow
+			) {
+            balances[msg.sender] -= _value;
+            balances[_to] += _value;
+            Transfer(msg.sender, _to, _value); // Event must be sent
+            return true;
+        } else {
+            return false;
+        }
+}
+```
 
 
 ### Deuxième contrat : Vendre ce token par crowdfunding (_Initial Coin Offering_, ou ICO)
 
 Le principe de ce contrat est simple : les investisseurs doivent pouvoir envoyer des Ether au contrat, et recevoir en échange des tokens.
 
-
-
 Un des paramètres du contrat est un seuil de financement : si ce seuil n'est pas atteint avant la fin de la crowdsale, il faut que les investisseurs puissent retirer leurs Ether.
+
 
 
 
