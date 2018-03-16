@@ -27,7 +27,9 @@ Une autre forme de consensus est la _Proof of Stake_, dans laquel les personnes 
 en collatérale : s'ils sont identifiés comme malveillants, ils perdent de l'argent.
 
 De nombreuses ressources externes détaillent le fonctionnement d'une blockchain, mais cela sort du contexte de ma veille. Une bonne explication des concepts de base 
-et des besoins de la cryptographie pour faire fonctionner un tel système peut se trouver sur la chaîne Youtube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) : [Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+et des besoins de la cryptographie pour faire fonctionner un tel système peut se trouver sur la chaîne Youtube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) :
+[Ever wonder how Bitcoin (and other cryptocurrencies) actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4) :
+[![](https://img.youtube.com/vi/bBC-nXj3Ng4/0.jpg)]](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
 ## Spécificités d'Ethereum
 
@@ -38,24 +40,12 @@ Vous trouverez plus de détails sur les smart-contracts dans la page associée.
 
 Ethereum est devenu rapidement une des blockchain les plus suivies et utilisée.
 
-[TODO : Ajout métriques + sources !!!!]
-
-## Pourquoi vouloir utiliser une blockchain ?
-
-La technologie blockchain est très récente (création de Bitcoin en 2009), et de nombreuses personnes restent sceptiques sur son utilité.
-En effet, beaucoup de _hype_ est apporté par les cours des cryptomonnaies et les capacités de la technologie sont plutôt mal connues,
-et ceux même parmis les acteurs du domaine. Également, certaines personnes pensent que des systèmes distribués classiques pourraient
-suffire pour de nombreux projets se basants sur la blockchain.
-
-
-Cependant, les blockchains ont tout de même des avantages très intéressants :
-* Tranparence : toutes les transactions sont visibles et vérifiables par chacun
-* Fiabilité : 
-* Pas besoin de confiance en un tiers :
-* Immuabilité : 
-* Gestion des payements intégrée au protocole : 
-
-[TODO !]
+Quelques métriques intéressantes sur la plateforme :
+* 
+* 
+* 
+* 
+* 
 
 À lire ensuite : [**Qu'est-ce qu'un smart-contract ?**](smartcontracts.html)
 
