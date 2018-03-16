@@ -24,9 +24,11 @@ ___
 
 ### Levées de fond par ICO
 
-### 
+[TODO : Graph ICO vs VC funds 2017]()
 
-### 
+### Création de stablecoins (DAI)
+
+### Votes
 
 
 ## Automatisation de processus
@@ -37,11 +39,11 @@ ___
 
 ## Partage de ressources
 
-### 
+### Storj
 
-### 
+### IExec
 
-### 
+### Toyota
 
 ## Création de _Decentralized Autonomous Organizations_ (DAO)
 

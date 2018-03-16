@@ -43,9 +43,9 @@ Vous trouverez plus de détails sur les smart-contracts dans la page associée.
 Ethereum est devenu rapidement une des blockchain les plus suivies et utilisée.
 
 Quelques métriques intéressantes sur la plateforme :
-* 
-* 
-* 
+* Deuxième projet blockchain par capitalisation du marché des cryptomonnaies
+* Truffle : 360 000 téléchargements
+* Une estimation de 100 000 développeurs sur la plateforme
 * 
 * 
 

@@ -11,10 +11,15 @@
 ___
 # Bibliographie
 
+## Communautés utilisées pour réaliser ma veille :
+* [/r/Ethereum](https://www.reddit.com/r/Ethereum)
+* [/r/Ethtrader](https://www.reddit.com/r/Ethtrader)
+* [/r/Ethdev](https://www.reddit.com/r/Ethdev)
+
 ## Liens utiles
 
 * [Site officiel du projet Ethereum](https://www.ethereum.org/)
-* []()
+* [Repository Github](https://github.com/ethereum/)
 * []()
 
 ## Projets mentionnés :
