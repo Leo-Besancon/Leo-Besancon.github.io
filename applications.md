@@ -13,11 +13,11 @@ ___
 
 ## Plateformes de jeux d'argents
 
+### Decent.bet
+
 ### FunFair
 
-### 
-
-### 
+### Edgeless.io
 
 
 ## Création de tokens
@@ -37,18 +37,25 @@ ___
 
 ### 
 
+
 ## Partage de ressources
 
 ### Storj
 
-### IExec
+### iExec
 
-### Toyota
+### Toyota : Prototype d'alternative à Uber
+
 
 ## Création de _Decentralized Autonomous Organizations_ (DAO)
 
 
+## ... Et de nombreuses autres !
 
+Pour découvrir de nouvelles applications aux smart-contract, vous pouvez :
+* Regarder l'ensemble des Applications Décentralisées existantes : [State of the Dapps]()
+* Consulter mon flux twitter pour d'autres exemples que j'ai jugé intéressants : [@ecl_lb](https://twitter.com/ecl_lb)
+* Vous tenir au courant des dernières sorties grâces aux communautés que j'ai utilisé pour réaliser ma veille (voir section [Bibliographie](bibliographie.html))
 
 À lire ensuite : [**Exemples de code Solidity**](exemples.html)
 

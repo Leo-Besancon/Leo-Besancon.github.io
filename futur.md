@@ -15,7 +15,8 @@ ___
 
 ### Consommation énergétique
 
-
+![Évolution de la consommation énergétique d'Ethereum](ethereum_consommation.png)
+Sources : [https://ethereumenergyconsumption.com](https://ethereumenergyconsumption.com)
 
 ### Vulnérabilités
 
@@ -23,14 +24,17 @@ Comme mentionné précédemment, la technologie est jeune et les vulnérabilité
 pour la démocratisation des smart-contracts. La maintenabilité est difficile, et toute erreur peut avoir de très grosses
 conséquences.
 
-
 ### Manque de régulation
 
-
+Un autre point noir qui empêche actuellement une utilisation des smart-contracts par un grand nombre de personnes est le manque de régulation.
+De nombreuses arnaques (Ponzi schemes) sont présentes, les marchés des cryptomonnaies sont fortement manipulés (Pump and dumps), et cela attire les
+acteurs malveillants.
 
 ### Passage à l'échelle du nombre de transactions traitées par le réseau
 
+Enfin, il est important de mentionner qu'à l'heure actuelle, Ethereum ne peut pas gérer plus d'une quinzaine de transactions par seconde.
 
+[TODO : CryptoKitties]()
 
 
 
