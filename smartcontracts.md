@@ -58,12 +58,12 @@ et ceux même parmis les acteurs du domaine. Également, certaines personnes pen
 suffire pour de nombreux projets se basants sur la blockchain.
 
 Cependant, les blockchains ont tout de même des avantages très intéressants :
-* Tranparence : toutes les transactions sont visibles et vérifiables par chacun.
-* Fiabilité : Une application décentralisée ne dépend pas d'un serveur central pour fonctionné, ainsi la probabilité de pannes de l'application est négligeable par design,
+* **Tranparence** : toutes les transactions sont visibles et vérifiables par chacun.
+* **Fiabilité** : Une application décentralisée ne dépend pas d'un serveur central pour fonctionné, ainsi la probabilité de pannes de l'application est négligeable par design,
 sans avoir à investir massivement dans une infrastructure complexe.
-* Pas besoin de confiance en un tiers : si le code est de confiance, alors intéragir avec le smart-contract est sûr.
-* Immuabilité : Personne ne peut modifier les événements passés (le coût de modification d'une transaction est en exponentiel du temps passé).
-* Gestion des payements intégrée au protocole : Pas besoin de passé par un tiers tel Paypal qui peut bannir arbitrairement des comptes et applique des frais importants.
+* **Pas besoin de confiance en un tiers** : si le code est de confiance, alors intéragir avec le smart-contract est sûr.
+* **Immuabilité** : Personne ne peut modifier les événements passés (le coût de modification d'une transaction est en exponentiel du temps passé).
+* **Gestion des payements intégrée au protocole** : Pas besoin de passé par un tiers tel Paypal qui peut bannir arbitrairement des comptes et applique des frais importants.
 
 
 À lire ensuite : [**Les applications de ces contrats ->**](applications.html)
