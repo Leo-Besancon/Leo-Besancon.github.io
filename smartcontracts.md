@@ -14,7 +14,8 @@ ___
 ## Principe générale
 
 Un smart-contract est un programme qui réside sur la blockchain. Les utilisateurs d'un contrat peuvent appeler ses fonctions de la 
-même manière qu'ils réalisent des transactions classiques, avec des clients tels que [MetaMask]() ou [Mist]().
+même manière qu'ils réalisent des transactions classiques, avec des clients tels que [MetaMask](https://metamask.io/) (fonctionnant directement depuis le navigateur)
+de l'utilisateur et utilisant un noeud tiers) ou [Mist](https://github.com/ethereum/mist/releases) (un programme tiers qui créé un noeud sur l'ordinateur de l'utilisateur).
 
 Une fois la transaction diffusée, les mineurs vont exécuter le code du contrat et mettre à jour l'état des variables stockées sur la blockchain.
 Les traces d'exécutions sont également stockées.
@@ -31,9 +32,9 @@ _gas_ consommés lors de l'exécution de la transaction. Ce principe permet de r
 ### Langage et compilation
 
 Plusieurs langages sont mis à disposition aux développeurs pour écrire des smart-contracts. Le plus utilisé actuellement est
-[Solidity](), mais il y a aussi [Vyper](https://github.com/ethereum/vyper) ([Serpent]() étant _deprecated_).
+[Solidity](https://github.com/ethereum/solidity), mais il y a aussi [Viper](https://github.com/ethereum/vyper) ([Serpent](https://github.com/ethereum/serpent) étant _deprecated_).
 
-Vyper à pour but de réduire le nombre de fonctionnalités par rapport à Solidity afin de simplifier les audits de sécurités du code
+Viper à pour but de réduire le nombre de fonctionnalités par rapport à Solidity afin de simplifier les audits de sécurités du code
 des smart-contracts.
 
 Une fois écris, les smart-contracts sont compilés en Bytecode (l'assembleur de la blockchain), c'est-à-dire traduits en une série
@@ -44,13 +45,10 @@ d'instructions de base (appelés _opcodes_) décrites dans le [Papier Jaune d'Et
 Pour développer des smart-contracts, la suite d'outils la plus utilisée est [Truffle](http://truffleframework.com/).
 Cependant, un IDE en ligne est également disponible pour prototyper rapidement des smart-contracts : [Remix](https://remix.ethereum.org)
 
-[TODO : tests, ...]()
+Peu d'outils avancés d'aide au développement existent à l'heure actuelle. Cependant, nous pouvons noter l'existance d'un décompileur, [Porosity](https://github.com/comaeio/porosity)
+pour transformer du bytecode en Solidity, ce qui est utile pour débuguer un contrat.
 
-
-
-
-
-
+Truffle intègre aussi la possibilité d'exécuter des tests simulants des intéractions avec le contrat, écrits en Javascript.
 
 ## Pourquoi vouloir utiliser une blockchain ?
 

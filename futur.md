@@ -40,7 +40,7 @@ acteurs malveillants.
 
 Enfin, il est important de mentionner qu'à l'heure actuelle, Ethereum ne peut pas gérer plus d'une quinzaine de transactions par seconde.
 
-En décembre 2017, un jeu décentralisé, [CryptoKitties](), est devenu très populaire et à amené une demande importante de transactions de la part de ces utilisateurs.
+En décembre 2017, un jeu décentralisé, [CryptoKitties](https://www.cryptokitties.co/), est devenu très populaire et à amené une demande importante de transactions de la part de ces utilisateurs.
 Le réseau ne pouvait pas en traiter autant, ce qui a eu pour double conséquence d'allonger les temps d'attente et d'augmenter fortement le coût des transactions.
 
 Un article de Bloomberg mentionnant le phénomène est disponible ici : [

@@ -46,8 +46,6 @@ Quelques métriques intéressantes sur la plateforme :
 * Deuxième projet blockchain par capitalisation du marché des cryptomonnaies
 * Truffle : 360 000 téléchargements
 * Une estimation de 100 000 développeurs sur la plateforme
-* 
-* 
 
 À lire ensuite : [**Qu'est-ce qu'un smart-contract ?**](smartcontracts.html)
 
