@@ -35,7 +35,7 @@ De nombreuses startups utilisent la création de tokens afin de réaliser des le
 un total de pas moins de [6.8 milliards de dollars](https://www.bloomberg.com/news/articles/2018-01-21/to-ico-or-not-to-ico-that-is-the-question-for-today-s-startups)
 , dépassant largement [les financements par Venture Capital](https://www.cnbc.com/2017/08/09/initial-coin-offerings-surpass-early-stage-venture-capital-funding.html)
 
-[! Financements par ICO par trimestre](icos.png)
+![Financements par ICO par trimestre](icos.png)
 Source : [Smith et Crown](https://www.smithandcrown.com/icos/) et [https://www.bloomberg.com/news/articles/2018-01-21/to-ico-or-not-to-ico-that-is-the-question-for-today-s-startups](https://www.bloomberg.com/news/articles/2018-01-21/to-ico-or-not-to-ico-that-is-the-question-for-today-s-startups)
 
 ### Création de stablecoins (DAI)
