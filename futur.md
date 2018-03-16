@@ -64,7 +64,7 @@ Ainsi, il semble impossible que le réseau actuel puisse être utilisé par plus
 
 
 
-## À quoi peut-ont s'attendre ?
+## À quoi peut-on s'attendre ?
 
 ### Maturation de la technologie
 
